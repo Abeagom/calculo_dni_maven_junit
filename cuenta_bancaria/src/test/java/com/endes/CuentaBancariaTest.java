@@ -15,7 +15,7 @@ class CuentaBancariaTest {
 	}
 
 	@Test
-	@DisplayName("Prueba donde el saldo crucial es correcto")
+	@DisplayName("Prueba donde el saldo incial es correcto")
 	void testConstructorValido() {
 		double resultadoEsperado = 1000.0;
 		assertEquals(resultadoEsperado, cuenta.getSaldo(), "No se corresponde el saldo obtenido con el pasado");
